@@ -19,7 +19,7 @@ const efaFriendlyDeparture = departure => ({
 
 const efaFriendlyDepartureList = departureList => (
     departureList.departure
-    ? efaFriendlyDeparture(departureList.departure)
+    ? [ efaFriendlyDeparture(departureList.departure) ]
     : departureList.map(efaFriendlyDeparture)
 );
 
