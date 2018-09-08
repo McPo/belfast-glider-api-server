@@ -35,6 +35,7 @@ const efaFriendlyStop = stop => ({
 });
 
 const efaFriendly = efaResponse => ({
+    dateTime: efaDateToString(efaResponse.dateTime),
     stop: efaFriendlyStop(efaResponse.dm),
     departures: efaFriendlyDepartureList(efaResponse.departureList)
 })
@@ -47,7 +48,7 @@ const stopDetailApi = stopId => (
     axios.get(generateStopUrl(10011588, 1))
     .then(response => ({
         status: 'ok',
-        result: efaFriendly(response.data)
+        ...efaFriendly(response.data)
     }))
     .catch(err => ({
         status: 'error',
