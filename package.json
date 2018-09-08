@@ -1,0 +1,15 @@
+{
+  "name": "belfast-glider-api-server",
+  "version": "0.0.1",
+  "description": "A simple server application that provides a simple REST interface for real-time information on the Belfast Glider network.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Emmet McPoland",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}
