@@ -1,5 +1,7 @@
+const fs = require('fs');
 const axios = require('axios');
 const xml2js = require('xml2js');
+const stopNames = require('../data/stopNames');
 
 const getAllStops = () => (
     axios({
@@ -7,27 +9,27 @@ const getAllStops = () => (
         method: 'GET',
         responseType: 'text'
     })
-    .then(response => {
+    .then(response => new Promise((resolve, reject) => {
         xml2js.parseString(response.data, (err, result) => {
-            console.log(result.itdRequest.itdStopListRequest[0].itdOdv.map(
-                itd0dv => ({
-                    name: itd0dv.itdOdvName[0].odvNameElem[0]._,
-                    id: itd0dv.itdOdvName[0].odvNameElem[0].$.stopID,
-                    lat: itd0dv.itdCoord[0].$.x,
-                    long: itd0dv.itdCoord[0].$.y
-                })
-            ));
-            /*
-            name: result.itdRequest.itdStopListRequest[0].itdOdv[0].itdOdvName[0].odvNameElem[0]._
-            id: result.itdRequest.itdStopListRequest[0].itdOdv[0].itdOdvName[0].odvNameElem[0].$.stopId
-            lat: result.itdRequest.itdStopListRequest[0].itdOdv[0].itdCoord[0].$.x
-            long: result.itdRequest.itdStopListRequest[0].itdOdv[0].itdCoord[0].$.y
-            */
-        });
-    })
+            if (err) reject(err)
+            else resolve(
+            result.itdRequest.itdStopListRequest[0].itdOdv.map(i => ({
+                name: i.itdOdvName[0].odvNameElem[0]._,
+                id: i.itdOdvName[0].odvNameElem[0].$.stopID,
+                lat: i.itdCoord[0].$.x,
+                long: i.itdCoord[0].$.y
+            })))
+        })
+    }))
     .catch(err => (
         console.log('error obtaining list of stops', err)
     ))
 );
 
-getAllStops().then(result => console.log(result));
+getAllStops()
+.then(result => {
+    fs.writeFile("./data/.all.json", JSON.stringify(result));
+    return result;
+})
+.then(result => result.filter(r => stopNames.all.includes(r.name)))
+.then(result => console.log(result));
