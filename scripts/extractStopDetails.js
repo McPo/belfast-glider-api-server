@@ -39,17 +39,24 @@ const writeResultToFile = filename => stops => {
     return stops;
 }
 
+const filterDupes = stops => {
+    const highestStopId = {}
+    stops.forEach(s => highestStopId[s.name] = Math.max(highestStopId[s.name] || 0, parseInt(s.id)));
+    return stops.filter(s => highestStopId[s.name] === parseInt(s.id));
+};
+
 const findDupes = stops => {
     const stopNames = stops.map(s => s.name);
     const duplicates = stops.filter(s => stopNames.indexOf(s.name) !== stopNames.lastIndexOf(s.name));
     const orderedDuplicates = duplicates.sort((a, b) => a.name.localeCompare(b.name));
-    console.log('duplicates', orderedDuplicates);
+    console.log('Duplicates:', orderedDuplicates);
     return orderedDuplicates
 }
 
 getAllStops()
 //.then(writeResultToFile('./data/.all.json'))
 .then(filterGlideStops)
+.then(filterDupes)
 .then(writeResultToFile('./data/stops.json'))
 .then(findDupes)
 .then(writeResultToFile('./data/.dupes.json'))
