@@ -1,11 +1,11 @@
 # Belfast Glider API Server
 
-A simple wrapper around Translinks EFA API to reduce the complecity of working with the API.
+A simple third-party wrapper around Translinks EFA API to reduce the complexity of working with their API.
 
 # Usage
 
 ```
-/list/
+/list
 ```
 
 Returns a list of G1 and G2 Glider stops, including their id, name, latitude and longitude.
