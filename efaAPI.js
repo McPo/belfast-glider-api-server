@@ -3,7 +3,7 @@ const efaFriendly =  require('./efaFriendly')
 
 const stopDetailApi = (stopId, limit) => (
     axios({
-        url: 'http://journeyplanner.translink.co.uk/android/XML_DM_REQUEST',
+        url: 'http://journeyplanner.translink.co.uk/web/XML_DM_REQUEST',
         method: 'GET',
         params: {
             _:1536414335130,
