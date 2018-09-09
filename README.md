@@ -8,7 +8,7 @@ A simple third-party wrapper around Translinks EFA API to reduce the complexity 
 /list
 ```
 
-Returns a list of G1 and G2 Glider stops, including their id, name, latitude and longitude.
+Returns a list of G1 and G2 Glider stops, including their id, name, x and y.
 
 ```
 /stop/:id?[limit=1]
@@ -25,4 +25,5 @@ Returns a list of departures from a specific stop, includes real time informatio
 
 # Todo
 - Add Feeder Services
+- Convert x,y to lat,lng
 - Reduce size of EFA response object (Lots of redundant information)
