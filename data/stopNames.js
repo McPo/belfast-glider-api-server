@@ -69,10 +69,10 @@ const gTwo = [
     'Custom House Square'
 ];
 
-const all = new Set([
+const all = Array.from(new Set([
     ...gOne,
     ...gTwo
-]);
+]));
 
 module.exports = {
     all,
