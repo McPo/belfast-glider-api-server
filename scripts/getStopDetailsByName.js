@@ -10,9 +10,9 @@ const efaXMLStopsToFriendlyJson = xmlInput => (
             else resolve(
             result.itdRequest.itdStopListRequest[0].itdOdv.map(i => ({
                 name: i.itdOdvName[0].odvNameElem[0]._,
-                id: i.itdOdvName[0].odvNameElem[0].$.stopID,
-                x: i.itdCoord[0].$.x,
-                y: i.itdCoord[0].$.y
+                id: parseInt(i.itdOdvName[0].odvNameElem[0].$.stopID),
+                x: parseInt(i.itdCoord[0].$.x),
+                y: parseInt(i.itdCoord[0].$.y)
             })))
         })
     })
