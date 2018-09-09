@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "get-stop-details": "node ./scripts/getStopDetails.js",
+    "get-stop-details-by-name": "node ./scripts/getStopDetailsByName.js",
+    "get-stop-details-by-id": "node ./scripts/getStopDetailsById.js",
     "validate-stop-details": "node ./scripts/validateStopDetails.js"
   },
   "author": "Emmet McPoland",

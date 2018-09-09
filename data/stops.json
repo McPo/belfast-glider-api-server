@@ -8,6 +8,14 @@
         "g2": false
     },
     {
+        "name": "Fruithill Park",
+        "id": "10001168",
+        "lat": "730457",
+        "long": "128423",
+        "g1": true,
+        "g2": false
+    },
+    {
         "name": "Casement Park",
         "id": "10001178",
         "lat": "730216",
@@ -60,6 +68,14 @@
         "id": "10002146",
         "lat": "735552",
         "long": "126082",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Knock Road (Upper Newtownards Road)",
+        "id": "10002982",
+        "lat": "738520",
+        "long": "126076",
         "g1": true,
         "g2": false
     },
@@ -120,14 +136,6 @@
         "g2": true
     },
     {
-        "name": "Knock Road (Upper Newtownards Road)",
-        "id": "10002982",
-        "lat": "738520",
-        "long": "126076",
-        "g1": true,
-        "g2": false
-    },
-    {
         "name": "Odyssey",
         "id": "10005769",
         "lat": "734610",
@@ -144,10 +152,26 @@
         "g2": false
     },
     {
+        "name": "Comber Road",
+        "id": "10005799",
+        "lat": "741146",
+        "long": "125960",
+        "g1": true,
+        "g2": false
+    },
+    {
         "name": "Ulster Hospital",
         "id": "10005838",
         "lat": "741387",
         "long": "125960",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Beechmount",
+        "id": "10006211",
+        "lat": "731644",
+        "long": "126574",
         "g1": true,
         "g2": false
     },
@@ -200,10 +224,10 @@
         "g2": false
     },
     {
-        "name": "Fruithill Park",
-        "id": "10001168",
-        "lat": "730457",
-        "long": "128423",
+        "name": "Shaws Road",
+        "id": "10007805",
+        "lat": "729568",
+        "long": "128752",
         "g1": true,
         "g2": false
     },
@@ -212,6 +236,14 @@
         "id": "10007810",
         "lat": "729268",
         "long": "128859",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Lenadoon Avenue (Andersonstown Road)",
+        "id": "10007811",
+        "lat": "728864",
+        "long": "129111",
         "g1": true,
         "g2": false
     },
@@ -236,14 +268,6 @@
         "id": "10009110",
         "lat": "731097",
         "long": "127173",
-        "g1": true,
-        "g2": false
-    },
-    {
-        "name": "North Road (Upper Newtownards Road)",
-        "id": "10011528",
-        "lat": "737161",
-        "long": "125951",
         "g1": true,
         "g2": false
     },
@@ -280,14 +304,6 @@
         "g2": false
     },
     {
-        "name": "Beechmount",
-        "id": "10006211",
-        "lat": "731644",
-        "long": "126574",
-        "g1": true,
-        "g2": false
-    },
-    {
         "name": "Oakland Avenue",
         "id": "10011524",
         "lat": "737131",
@@ -296,18 +312,18 @@
         "g2": false
     },
     {
-        "name": "Glengoland",
-        "id": "10011588",
-        "lat": "728325",
-        "long": "129612",
+        "name": "North Road (Upper Newtownards Road)",
+        "id": "10011528",
+        "lat": "737161",
+        "long": "125951",
         "g1": true,
         "g2": false
     },
     {
-        "name": "Lenadoon Avenue (Andersonstown Road)",
-        "id": "10007811",
-        "lat": "728864",
-        "long": "129111",
+        "name": "Glengoland",
+        "id": "10011588",
+        "lat": "728325",
+        "long": "129612",
         "g1": true,
         "g2": false
     },
@@ -392,10 +408,10 @@
         "g2": false
     },
     {
-        "name": "Shaws Road",
-        "id": "10007805",
-        "lat": "729568",
-        "long": "128752",
+        "name": "Lanyon Place Station",
+        "id": "10012480",
+        "lat": "734535",
+        "long": "126078",
         "g1": true,
         "g2": false
     },
@@ -432,26 +448,10 @@
         "g2": true
     },
     {
-        "name": "Comber Road",
-        "id": "10005799",
-        "lat": "741146",
-        "long": "125960",
-        "g1": true,
-        "g2": false
-    },
-    {
         "name": "Upper Dunmurry Lane",
         "id": "10012602",
         "lat": "728031",
         "long": "129913",
-        "g1": true,
-        "g2": false
-    },
-    {
-        "name": "Lanyon Place Station",
-        "id": "10012480",
-        "lat": "734535",
-        "long": "126078",
         "g1": true,
         "g2": false
     }
