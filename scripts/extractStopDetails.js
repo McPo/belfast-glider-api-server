@@ -26,7 +26,7 @@ const getAllStops = () => (
     })
     .then(response => efaXMLStopsToFriendlyJson(response.data))
     .catch(err => (
-        console.log('error obtaining list of stops', err)
+        console.error('error obtaining list of stops', err)
     ))
 );
 
@@ -39,6 +39,14 @@ const writeResultToFile = filename => stops => {
     return stops;
 }
 
+const addGlideRouteInfo = stops => (
+    stops.map(s => ({
+        ...s,
+        g1: stopNames.g1.includes(s.name),
+        g2: stopNames.g2.includes(s.name)
+    }))
+);
+
 const filterDupes = stops => {
     const highestStopId = {}
     stops.forEach(s => highestStopId[s.name] = Math.max(highestStopId[s.name] || 0, parseInt(s.id)));
@@ -49,15 +57,27 @@ const findDupes = stops => {
     const stopNames = stops.map(s => s.name);
     const duplicates = stops.filter(s => stopNames.indexOf(s.name) !== stopNames.lastIndexOf(s.name));
     const orderedDuplicates = duplicates.sort((a, b) => a.name.localeCompare(b.name));
-    console.log('Duplicates:', orderedDuplicates);
+    console.info('Duplicates:', orderedDuplicates);
     return orderedDuplicates
-}
+};
+
+const verifyAmount = stops => {
+    g1Count = stops.filter(s => s.g1).length;
+    g2Count = stops.filter(s => s.g2).length;
+    g1OK = g1Count == stopNames.g1.length;
+    g2OK = g2Count == stopNames.g2.length;
+    if (g1OK && g2OK) console.log('OK');
+    else console.error(`Incorrect number of stops: G1=${g1Count}/${stopNames.g1.length}, G2=${g2Count}/${stopNames.g2.length}`);
+    return stops;
+};
 
 getAllStops()
 //.then(writeResultToFile('./data/.all.json'))
 .then(filterGlideStops)
 .then(filterDupes)
+.then(addGlideRouteInfo)
 .then(writeResultToFile('./data/stops.json'))
+.then(verifyAmount)
 .then(findDupes)
 .then(writeResultToFile('./data/.dupes.json'))
-.catch(err => console.log('An error occured', err));
+.catch(err => console.error('An error occured', err));

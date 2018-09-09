@@ -1,5 +1,5 @@
 
-const gOne = [
+const g1 = [
     'McKinstry Road',
     'Lagmore Avenue',
     'Twinbrook Road',
@@ -55,7 +55,7 @@ const gOne = [
     'Dundonald Park & Ride'
 ];
 
-const gTwo = [
+const g2 = [
     'Catalyst Inc.',
     'Thompson Dry Dock',
     'Titanic',
@@ -70,12 +70,12 @@ const gTwo = [
 ];
 
 const all = Array.from(new Set([
-    ...gOne,
-    ...gTwo
+    ...g1,
+    ...g2
 ]));
 
 module.exports = {
     all,
-    gOne,
-    gTwo
+    g1,
+    g2
 };
