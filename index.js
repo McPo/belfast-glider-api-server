@@ -16,6 +16,6 @@ app.get('/stop/:id', (req, res) => (
     .then(result => res.send(result))
 ));
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('Belfast Glider API Server - listening on port 3000');
 });
