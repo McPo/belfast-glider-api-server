@@ -25,9 +25,9 @@ const efaFriendlyDepartureList = departureList => (
 
 const efaFriendlyStop = stop => ({
     name: stop.itdOdvAssignedStops.name,
-    id: stop.itdOdvAssignedStops.stopId,
-    lat: stop.itdOdvAssignedStops.x,
-    long: stop.itdOdvAssignedStops.y
+    id: parseInt(stop.itdOdvAssignedStops.stopID),
+    x: parseInt(stop.itdOdvAssignedStops.x),
+    y: parseInt(stop.itdOdvAssignedStops.y)
 });
 
 const efaFriendly = efaResponse => ({
