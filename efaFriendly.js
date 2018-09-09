@@ -30,10 +30,18 @@ const efaFriendlyStop = stop => ({
     lng: parseFloat(stop.itdOdvAssignedStops.x)
 });
 
-const efaFriendly = efaResponse => ({
-    dateTime: efaDateToString(efaResponse.dateTime),
-    stop: efaFriendlyStop(efaResponse.dm),
-    departures: efaFriendlyDepartureList(efaResponse.departureList)
-})
+const validEFAGliderStop = efaResponse => Boolean(efaResponse.dm.itdOdvAssignedStops);
+
+const efaFriendly = efaResponse => {
+    if (!validEFAGliderStop(efaResponse)) {
+        throw 'Invalid Glider Stop';
+    }
+
+    return {
+        dateTime: efaDateToString(efaResponse.dateTime),
+        stop: efaFriendlyStop(efaResponse.dm),
+        departures: efaFriendlyDepartureList(efaResponse.departureList)
+    };
+};
 
 module.exports = efaFriendly;
