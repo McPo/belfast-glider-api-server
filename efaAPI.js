@@ -15,6 +15,7 @@ const stopDetailApi = (stopId, limit) => (
             deleteAssignedStops_dm: 1,
             coordOutputFormat: 'WGS84[DD.DDDDD]',
             includedMeans: 7,
+            useRealtime: 1,
             name_dm: stopId,
             limit,
         }
