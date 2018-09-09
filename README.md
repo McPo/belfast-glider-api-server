@@ -11,7 +11,7 @@ A simple third-party wrapper around Translinks EFA API to reduce the complexity 
 Returns a list of G1 and G2 Glider stops, including their id, name, latitude and longitude.
 
 ```
-/stop/:id
+/stop/:id?[limit=1]
 ```
 
 Returns a list of departures from a specific stop, includes real time information if available.
