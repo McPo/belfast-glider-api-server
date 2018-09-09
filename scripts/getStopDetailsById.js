@@ -11,8 +11,8 @@ const efaXMLStopsToFriendlyJson = xmlInput => (
             result.itdRequest.itdStopListRequest[0].itdOdv.map(i => ({
                 name: i.itdOdvName[0].odvNameElem[0]._,
                 id: i.itdOdvName[0].odvNameElem[0].$.stopID,
-                lat: i.itdCoord[0].$.x,
-                long: i.itdCoord[0].$.y
+                x: i.itdCoord[0].$.x,
+                y: i.itdCoord[0].$.y
             })))
         })
     })
