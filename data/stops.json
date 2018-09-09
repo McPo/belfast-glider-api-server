@@ -120,10 +120,10 @@
         "g2": true
     },
     {
-        "name": "Knock Road",
-        "id": "10004515",
-        "lat": "695908",
-        "long": "70110",
+        "name": "Knock Road (Upper Newtownards Road)",
+        "id": "10002982",
+        "lat": "738520",
+        "long": "126076",
         "g1": true,
         "g2": false
     },
@@ -201,9 +201,9 @@
     },
     {
         "name": "Fruithill Park",
-        "id": "10006773",
-        "lat": "730097",
-        "long": "127829",
+        "id": "10001168",
+        "lat": "730457",
+        "long": "128423",
         "g1": true,
         "g2": false
     },
@@ -240,10 +240,10 @@
         "g2": false
     },
     {
-        "name": "North Road",
-        "id": "10009863",
-        "lat": "749613",
-        "long": "124657",
+        "name": "North Road (Upper Newtownards Road)",
+        "id": "10011528",
+        "lat": "737161",
+        "long": "125951",
         "g1": true,
         "g2": false
     },
@@ -281,9 +281,9 @@
     },
     {
         "name": "Beechmount",
-        "id": "10011439",
-        "lat": "634311",
-        "long": "103011",
+        "id": "10006211",
+        "lat": "731644",
+        "long": "126574",
         "g1": true,
         "g2": false
     },
@@ -304,18 +304,18 @@
         "g2": false
     },
     {
-        "name": "Lenadoon Avenue",
-        "id": "10011589",
-        "lat": "728652",
-        "long": "128361",
+        "name": "Lenadoon Avenue (Andersonstown Road)",
+        "id": "10007811",
+        "lat": "728864",
+        "long": "129111",
         "g1": true,
         "g2": false
     },
     {
-        "name": "Woodbourne (Suffolk Road)",
-        "id": "10011599",
-        "lat": "728457",
-        "long": "129305",
+        "name": "Woodbourne (Andersonstown Road)",
+        "id": "10011596",
+        "lat": "728531",
+        "long": "129432",
         "g1": true,
         "g2": false
     },
@@ -393,9 +393,9 @@
     },
     {
         "name": "Shaws Road",
-        "id": "10012498",
-        "lat": "728647",
-        "long": "128299",
+        "id": "10007805",
+        "lat": "729568",
+        "long": "128752",
         "g1": true,
         "g2": false
     },
@@ -433,9 +433,9 @@
     },
     {
         "name": "Comber Road",
-        "id": "10012600",
-        "lat": "743735",
-        "long": "128492",
+        "id": "10005799",
+        "lat": "741146",
+        "long": "125960",
         "g1": true,
         "g2": false
     },
@@ -448,10 +448,10 @@
         "g2": false
     },
     {
-        "name": "Lanyon Place",
-        "id": "10012619",
-        "lat": "734617",
-        "long": "126059",
+        "name": "Lanyon Place Station",
+        "id": "10012480",
+        "lat": "734535",
+        "long": "126078",
         "g1": true,
         "g2": false
     }
