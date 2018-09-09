@@ -13,9 +13,10 @@ const stopDetailApi = (stopId, limit) => (
             mode: 'direct',
             type_dm: 'any',
             deleteAssignedStops_dm: 1,
+            coordOutputFormat: 'WGS84[DD.DDDDD]',
             includedMeans: 7,
             name_dm: stopId,
-            limit
+            limit,
         }
     })
     .then(response => ({

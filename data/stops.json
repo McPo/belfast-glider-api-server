@@ -2,456 +2,456 @@
     {
         "name": "Dundonald Park & Ride",
         "id": 10000211,
-        "x": 742323,
-        "y": 125800,
+        "lat": 54.59601,
+        "lng": -5.79749,
         "g1": true,
         "g2": false
     },
     {
         "name": "Fruithill Park",
         "id": 10001168,
-        "x": 730457,
-        "y": 128423,
+        "lat": 54.57565,
+        "lng": -5.98216,
         "g1": true,
         "g2": false
     },
     {
         "name": "Casement Park",
         "id": 10001178,
-        "x": 730216,
-        "y": 128601,
+        "lat": 54.57412,
+        "lng": -5.98596,
         "g1": true,
         "g2": false
     },
     {
         "name": "Slievegallion Drive",
         "id": 10001183,
-        "x": 729843,
-        "y": 128725,
+        "lat": 54.5731,
+        "lng": -5.99178,
         "g1": true,
         "g2": false
     },
     {
         "name": "Beech Hall",
         "id": 10001190,
-        "x": 730615,
-        "y": 128182,
+        "lat": 54.57778,
+        "lng": -5.97961,
         "g1": true,
         "g2": false
     },
     {
         "name": "Astoria Gardens",
         "id": 10002027,
-        "x": 737944,
-        "y": 126054,
+        "lat": 54.59494,
+        "lng": -5.86533,
         "g1": true,
         "g2": false
     },
     {
         "name": "Ballyhackamore",
         "id": 10002028,
-        "x": 737593,
-        "y": 126024,
+        "lat": 54.5953,
+        "lng": -5.87074,
         "g1": true,
         "g2": false
     },
     {
         "name": "Avoniel",
         "id": 10002130,
-        "x": 735798,
-        "y": 125972,
+        "lat": 54.59626,
+        "lng": -5.89847,
         "g1": true,
         "g2": false
     },
     {
         "name": "Templemore Avenue",
         "id": 10002146,
-        "x": 735552,
-        "y": 126082,
+        "lat": 54.59533,
+        "lng": -5.90233,
         "g1": true,
         "g2": false
     },
     {
         "name": "Knock Road (Upper Newtownards Road)",
         "id": 10002982,
-        "x": 738520,
-        "y": 126076,
+        "lat": 54.59458,
+        "lng": -5.85643,
         "g1": true,
         "g2": false
     },
     {
         "name": "Beersbridge Road",
         "id": 10003152,
-        "x": 736814,
-        "y": 125917,
+        "lat": 54.59648,
+        "lng": -5.88274,
         "g1": true,
         "g2": false
     },
     {
         "name": "Chichester Street",
         "id": 10003939,
-        "x": 733870,
-        "y": 125899,
+        "lat": 54.59742,
+        "lng": -5.92825,
         "g1": true,
         "g2": true
     },
     {
         "name": "Millfield",
         "id": 10003941,
-        "x": 733207,
-        "y": 125644,
+        "lat": 54.59989,
+        "lng": -5.93839,
         "g1": true,
         "g2": false
     },
     {
         "name": "Wellington Place",
         "id": 10003962,
-        "x": 733489,
-        "y": 125938,
+        "lat": 54.59718,
+        "lng": -5.93416,
         "g1": true,
         "g2": true
     },
     {
         "name": "May Street [City Hall]",
         "id": 10003999,
-        "x": 733887,
-        "y": 126045,
+        "lat": 54.59611,
+        "lng": -5.92806,
         "g1": true,
         "g2": true
     },
     {
         "name": "Custom House Square",
         "id": 10004009,
-        "x": 734195,
-        "y": 125475,
+        "lat": 54.60115,
+        "lng": -5.92303,
         "g1": true,
         "g2": true
     },
     {
         "name": "Waterfront",
         "id": 10004029,
-        "x": 734314,
-        "y": 125902,
+        "lat": 54.59728,
+        "lng": -5.92139,
         "g1": true,
         "g2": true
     },
     {
         "name": "Odyssey",
         "id": 10005769,
-        "x": 734610,
-        "y": 125253,
+        "lat": 54.60303,
+        "lng": -5.91651,
         "g1": false,
         "g2": true
     },
     {
         "name": "Cherryhill",
         "id": 10005798,
-        "x": 741993,
-        "y": 125967,
+        "lat": 54.5946,
+        "lng": -5.80268,
         "g1": true,
         "g2": false
     },
     {
         "name": "Comber Road",
         "id": 10005799,
-        "x": 741146,
-        "y": 125960,
+        "lat": 54.5949,
+        "lng": -5.81577,
         "g1": true,
         "g2": false
     },
     {
         "name": "Ulster Hospital",
         "id": 10005838,
-        "x": 741387,
-        "y": 125960,
+        "lat": 54.59483,
+        "lng": -5.81204,
         "g1": true,
         "g2": false
     },
     {
         "name": "Beechmount",
         "id": 10006211,
-        "x": 731644,
-        "y": 126574,
+        "lat": 54.59195,
+        "lng": -5.96298,
         "g1": true,
         "g2": false
     },
     {
         "name": "Beechview Park",
         "id": 10006212,
-        "x": 731363,
-        "y": 126720,
+        "lat": 54.59071,
+        "lng": -5.96739,
         "g1": true,
         "g2": false
     },
     {
         "name": "Children's Hospital",
         "id": 10006216,
-        "x": 731952,
-        "y": 126375,
+        "lat": 54.59365,
+        "lng": -5.95813,
         "g1": true,
         "g2": false
     },
     {
         "name": "Divis Tower",
         "id": 10006220,
-        "x": 732942,
-        "y": 125593,
+        "lat": 54.60042,
+        "lng": -5.94247,
         "g1": true,
         "g2": false
     },
     {
         "name": "Kennedy Centre",
         "id": 10006228,
-        "x": 730589,
-        "y": 127784,
+        "lat": 54.58136,
+        "lng": -5.97983,
         "g1": true,
         "g2": false
     },
     {
         "name": "Royal Hospitals (Falls Road)",
         "id": 10006241,
-        "x": 732029,
-        "y": 126282,
+        "lat": 54.59447,
+        "lng": -5.9569,
         "g1": true,
         "g2": false
     },
     {
         "name": "Twin Spires",
         "id": 10006256,
-        "x": 732616,
-        "y": 125720,
+        "lat": 54.59936,
+        "lng": -5.94757,
         "g1": true,
         "g2": false
     },
     {
         "name": "Shaws Road",
         "id": 10007805,
-        "x": 729568,
-        "y": 128752,
+        "lat": 54.57293,
+        "lng": -5.99604,
         "g1": true,
         "g2": false
     },
     {
         "name": "St Genevieve's",
         "id": 10007810,
-        "x": 729268,
-        "y": 128859,
+        "lat": 54.57204,
+        "lng": -6.00073,
         "g1": true,
         "g2": false
     },
     {
         "name": "Lenadoon Avenue (Andersonstown Road)",
         "id": 10007811,
-        "x": 728864,
-        "y": 129111,
+        "lat": 54.56988,
+        "lng": -6.00708,
         "g1": true,
         "g2": false
     },
     {
         "name": "Lagmore Avenue",
         "id": 10007836,
-        "x": 727581,
-        "y": 131327,
+        "lat": 54.55031,
+        "lng": -6.02787,
         "g1": true,
         "g2": false
     },
     {
         "name": "Falls Park",
         "id": 10009067,
-        "x": 730704,
-        "y": 127431,
+        "lat": 54.5845,
+        "lng": -5.9779,
         "g1": true,
         "g2": false
     },
     {
         "name": "City Cemetery",
         "id": 10009110,
-        "x": 731097,
-        "y": 127173,
+        "lat": 54.58671,
+        "lng": -5.97171,
         "g1": true,
         "g2": false
     },
     {
         "name": "Connswater",
         "id": 10010133,
-        "x": 736110,
-        "y": 125792,
+        "lat": 54.59779,
+        "lng": -5.89356,
         "g1": true,
         "g2": false
     },
     {
         "name": "Holywood Arches",
         "id": 10010137,
-        "x": 736499,
-        "y": 125825,
+        "lat": 54.59739,
+        "lng": -5.88756,
         "g1": true,
         "g2": false
     },
     {
         "name": "Rosepark",
         "id": 10011419,
-        "x": 740364,
-        "y": 126031,
+        "lat": 54.59448,
+        "lng": -5.8279,
         "g1": true,
         "g2": false
     },
     {
         "name": "Summerhill Avenue",
         "id": 10011422,
-        "x": 739894,
-        "y": 126014,
+        "lat": 54.59476,
+        "lng": -5.83516,
         "g1": true,
         "g2": false
     },
     {
         "name": "Oakland Avenue",
         "id": 10011524,
-        "x": 737131,
-        "y": 125939,
+        "lat": 54.59619,
+        "lng": -5.87784,
         "g1": true,
         "g2": false
     },
     {
         "name": "North Road (Upper Newtownards Road)",
         "id": 10011528,
-        "x": 737161,
-        "y": 125951,
+        "lat": 54.59608,
+        "lng": -5.87739,
         "g1": true,
         "g2": false
     },
     {
         "name": "Glengoland",
         "id": 10011588,
-        "x": 728325,
-        "y": 129612,
+        "lat": 54.56552,
+        "lng": -6.01563,
         "g1": true,
         "g2": false
     },
     {
         "name": "Woodbourne (Andersonstown Road)",
         "id": 10011596,
-        "x": 728531,
-        "y": 129432,
+        "lat": 54.56709,
+        "lng": -6.01237,
         "g1": true,
         "g2": false
     },
     {
         "name": "Titanic",
         "id": 10011899,
-        "x": 735055,
-        "y": 124822,
+        "lat": 54.60678,
+        "lng": -5.90943,
         "g1": false,
         "g2": true
     },
     {
         "name": "Thompson Dry Dock",
         "id": 10011901,
-        "x": 735468,
-        "y": 124282,
+        "lat": 54.61152,
+        "lng": -5.9028,
         "g1": false,
         "g2": true
     },
     {
         "name": "Catalyst Inc",
         "id": 10011918,
-        "x": 735637,
-        "y": 124057,
+        "lat": 54.61349,
+        "lng": -5.90008,
         "g1": false,
         "g2": true
     },
     {
         "name": "Cabin Hill",
         "id": 10012024,
-        "x": 739064,
-        "y": 126088,
+        "lat": 54.59433,
+        "lng": -5.84802,
         "g1": true,
         "g2": false
     },
     {
         "name": "Stormont",
         "id": 10012032,
-        "x": 739467,
-        "y": 126058,
+        "lat": 54.59448,
+        "lng": -5.84178,
         "g1": true,
         "g2": false
     },
     {
         "name": "McKinstry Road",
         "id": 10012110,
-        "x": 727567,
-        "y": 131750,
+        "lat": 54.54651,
+        "lng": -6.02827,
         "g1": true,
         "g2": false
     },
     {
         "name": "Colin Connect",
         "id": 10012111,
-        "x": 727957,
-        "y": 130041,
+        "lat": 54.56176,
+        "lng": -6.0215,
         "g1": true,
         "g2": false
     },
     {
         "name": "Twinbrook Road",
         "id": 10012120,
-        "x": 727656,
-        "y": 130747,
+        "lat": 54.5555,
+        "lng": -6.02646,
         "g1": true,
         "g2": false
     },
     {
         "name": "Short Strand (Albertbridge Road)",
         "id": 10012428,
-        "x": 735160,
-        "y": 126083,
+        "lat": 54.59543,
+        "lng": -5.90839,
         "g1": true,
         "g2": false
     },
     {
         "name": "Lanyon Place Station",
         "id": 10012480,
-        "x": 734535,
-        "y": 126078,
+        "lat": 54.59564,
+        "lng": -5.91805,
         "g1": true,
         "g2": false
     },
     {
         "name": "Clonard",
         "id": 10012517,
-        "x": 732205,
-        "y": 126018,
+        "lat": 54.59679,
+        "lng": -5.95406,
         "g1": true,
         "g2": false
     },
     {
         "name": "May Street [St George's Market]",
         "id": 10012547,
-        "x": 734099,
-        "y": 126042,
+        "lat": 54.59608,
+        "lng": -5.92478,
         "g1": true,
         "g2": true
     },
     {
         "name": "Greenwood Park",
         "id": 10012592,
-        "x": 738231,
-        "y": 126044,
+        "lat": 54.59495,
+        "lng": -5.86088,
         "g1": true,
         "g2": false
     },
     {
         "name": "College Square East",
         "id": 10012599,
-        "x": 733451,
-        "y": 126018,
+        "lat": 54.59647,
+        "lng": -5.93479,
         "g1": true,
         "g2": true
     },
     {
         "name": "Upper Dunmurry Lane",
         "id": 10012602,
-        "x": 728031,
-        "y": 129913,
+        "lat": 54.56289,
+        "lng": -6.0203,
         "g1": true,
         "g2": false
     }

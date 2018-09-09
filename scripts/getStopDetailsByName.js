@@ -11,8 +11,8 @@ const efaXMLStopsToFriendlyJson = xmlInput => (
             result.itdRequest.itdStopListRequest[0].itdOdv.map(i => ({
                 name: i.itdOdvName[0].odvNameElem[0]._,
                 id: parseInt(i.itdOdvName[0].odvNameElem[0].$.stopID),
-                x: parseInt(i.itdCoord[0].$.x),
-                y: parseInt(i.itdCoord[0].$.y)
+                lat: parseFloat(i.itdCoord[0].$.y),
+                lng: parseFloat(i.itdCoord[0].$.x)
             })))
         })
     })
@@ -22,7 +22,10 @@ const getAllStops = () => (
     axios({
         url: 'http://journeyplanner.translink.co.uk/web/XML_STOPLIST_REQUEST',
         method: 'GET',
-        responseType: 'text'
+        responseType: 'text',
+        params: {
+            coordOutputFormat: 'WGS84[DD.DDDDD]'
+        }
     })
     .then(response => efaXMLStopsToFriendlyJson(response.data))
     .catch(err => (
