@@ -25,4 +25,5 @@ Returns a list of departures from a specific stop, includes real time informatio
 
 # Todo
 - Add Feeder Services
+- Implement `/nearest` Endpoint
 - Reduce size of EFA response object (Lots of redundant information)
