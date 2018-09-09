@@ -54,11 +54,18 @@ const filterDupes = stops => {
 };
 
 const findDupes = stops => {
-    const stopNames = stops.map(s => s.name);
-    const duplicates = stops.filter(s => stopNames.indexOf(s.name) !== stopNames.lastIndexOf(s.name));
+    const currentStopNames = stops.map(s => s.name);
+    const duplicates = stops.filter(s => currentStopNames.indexOf(s.name) !== currentStopNames.lastIndexOf(s.name));
     const orderedDuplicates = duplicates.sort((a, b) => a.name.localeCompare(b.name));
     console.info('Duplicates:', orderedDuplicates);
     return orderedDuplicates
+};
+
+const findMissing = stops => {
+    const currentStopNames = stops.map(s => s.name);
+    const missing = stopNames.all.filter(s => !currentStopNames.includes(s));
+    console.info('Missing:', missing);
+    return stops
 };
 
 const verifyAmount = stops => {
@@ -72,12 +79,13 @@ const verifyAmount = stops => {
 };
 
 getAllStops()
-//.then(writeResultToFile('./data/.all.json'))
+.then(writeResultToFile('./data/.all.json'))
 .then(filterGlideStops)
 .then(filterDupes)
 .then(addGlideRouteInfo)
 .then(writeResultToFile('./data/stops.json'))
 .then(verifyAmount)
+.then(findMissing)
 .then(findDupes)
 .then(writeResultToFile('./data/.dupes.json'))
 .catch(err => console.error('An error occured', err));

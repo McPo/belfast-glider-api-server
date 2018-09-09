@@ -1,0 +1,458 @@
+[
+    {
+        "name": "Dundonald Park & Ride",
+        "id": "10000211",
+        "lat": "742323",
+        "long": "125800",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Casement Park",
+        "id": "10001178",
+        "lat": "730216",
+        "long": "128601",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Slievegallion Drive",
+        "id": "10001183",
+        "lat": "729843",
+        "long": "128725",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Beech Hall",
+        "id": "10001190",
+        "lat": "730615",
+        "long": "128182",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Astoria Gardens",
+        "id": "10002027",
+        "lat": "737944",
+        "long": "126054",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Ballyhackamore",
+        "id": "10002028",
+        "lat": "737593",
+        "long": "126024",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Avoniel",
+        "id": "10002130",
+        "lat": "735798",
+        "long": "125972",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Templemore Avenue",
+        "id": "10002146",
+        "lat": "735552",
+        "long": "126082",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Beersbridge Road",
+        "id": "10003152",
+        "lat": "736814",
+        "long": "125917",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Chichester Street",
+        "id": "10003939",
+        "lat": "733870",
+        "long": "125899",
+        "g1": true,
+        "g2": true
+    },
+    {
+        "name": "Millfield",
+        "id": "10003941",
+        "lat": "733207",
+        "long": "125644",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Wellington Place",
+        "id": "10003962",
+        "lat": "733489",
+        "long": "125938",
+        "g1": true,
+        "g2": true
+    },
+    {
+        "name": "May Street [City Hall]",
+        "id": "10003999",
+        "lat": "733887",
+        "long": "126045",
+        "g1": true,
+        "g2": true
+    },
+    {
+        "name": "Custom House Square",
+        "id": "10004009",
+        "lat": "734195",
+        "long": "125475",
+        "g1": true,
+        "g2": true
+    },
+    {
+        "name": "Waterfront",
+        "id": "10004029",
+        "lat": "734314",
+        "long": "125902",
+        "g1": true,
+        "g2": true
+    },
+    {
+        "name": "Knock Road",
+        "id": "10004515",
+        "lat": "695908",
+        "long": "70110",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Odyssey",
+        "id": "10005769",
+        "lat": "734610",
+        "long": "125253",
+        "g1": false,
+        "g2": true
+    },
+    {
+        "name": "Cherryhill",
+        "id": "10005798",
+        "lat": "741993",
+        "long": "125967",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Ulster Hospital",
+        "id": "10005838",
+        "lat": "741387",
+        "long": "125960",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Beechview Park",
+        "id": "10006212",
+        "lat": "731363",
+        "long": "126720",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Children's Hospital",
+        "id": "10006216",
+        "lat": "731952",
+        "long": "126375",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Divis Tower",
+        "id": "10006220",
+        "lat": "732942",
+        "long": "125593",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Kennedy Centre",
+        "id": "10006228",
+        "lat": "730589",
+        "long": "127784",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Royal Hospitals (Falls Road)",
+        "id": "10006241",
+        "lat": "732029",
+        "long": "126282",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Twin Spires",
+        "id": "10006256",
+        "lat": "732616",
+        "long": "125720",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Fruithill Park",
+        "id": "10006773",
+        "lat": "730097",
+        "long": "127829",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "St Genevieve's",
+        "id": "10007810",
+        "lat": "729268",
+        "long": "128859",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Lagmore Avenue",
+        "id": "10007836",
+        "lat": "727581",
+        "long": "131327",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Falls Park",
+        "id": "10009067",
+        "lat": "730704",
+        "long": "127431",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "City Cemetery",
+        "id": "10009110",
+        "lat": "731097",
+        "long": "127173",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "North Road",
+        "id": "10009863",
+        "lat": "749613",
+        "long": "124657",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Connswater",
+        "id": "10010133",
+        "lat": "736110",
+        "long": "125792",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Holywood Arches",
+        "id": "10010137",
+        "lat": "736499",
+        "long": "125825",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Rosepark",
+        "id": "10011419",
+        "lat": "740364",
+        "long": "126031",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Summerhill Avenue",
+        "id": "10011422",
+        "lat": "739894",
+        "long": "126014",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Beechmount",
+        "id": "10011439",
+        "lat": "634311",
+        "long": "103011",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Oakland Avenue",
+        "id": "10011524",
+        "lat": "737131",
+        "long": "125939",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Glengoland",
+        "id": "10011588",
+        "lat": "728325",
+        "long": "129612",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Lenadoon Avenue",
+        "id": "10011589",
+        "lat": "728652",
+        "long": "128361",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Woodbourne (Suffolk Road)",
+        "id": "10011599",
+        "lat": "728457",
+        "long": "129305",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Titanic",
+        "id": "10011899",
+        "lat": "735055",
+        "long": "124822",
+        "g1": false,
+        "g2": true
+    },
+    {
+        "name": "Thompson Dry Dock",
+        "id": "10011901",
+        "lat": "735468",
+        "long": "124282",
+        "g1": false,
+        "g2": true
+    },
+    {
+        "name": "Catalyst Inc",
+        "id": "10011918",
+        "lat": "735637",
+        "long": "124057",
+        "g1": false,
+        "g2": true
+    },
+    {
+        "name": "Cabin Hill",
+        "id": "10012024",
+        "lat": "739064",
+        "long": "126088",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Stormont",
+        "id": "10012032",
+        "lat": "739467",
+        "long": "126058",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "McKinstry Road",
+        "id": "10012110",
+        "lat": "727567",
+        "long": "131750",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Colin Connect",
+        "id": "10012111",
+        "lat": "727957",
+        "long": "130041",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Twinbrook Road",
+        "id": "10012120",
+        "lat": "727656",
+        "long": "130747",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Short Strand (Albertbridge Road)",
+        "id": "10012428",
+        "lat": "735160",
+        "long": "126083",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Shaws Road",
+        "id": "10012498",
+        "lat": "728647",
+        "long": "128299",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Clonard",
+        "id": "10012517",
+        "lat": "732205",
+        "long": "126018",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "May Street [St George's Market]",
+        "id": "10012547",
+        "lat": "734099",
+        "long": "126042",
+        "g1": true,
+        "g2": true
+    },
+    {
+        "name": "Greenwood Park",
+        "id": "10012592",
+        "lat": "738231",
+        "long": "126044",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "College Square East",
+        "id": "10012599",
+        "lat": "733451",
+        "long": "126018",
+        "g1": true,
+        "g2": true
+    },
+    {
+        "name": "Comber Road",
+        "id": "10012600",
+        "lat": "743735",
+        "long": "128492",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Upper Dunmurry Lane",
+        "id": "10012602",
+        "lat": "728031",
+        "long": "129913",
+        "g1": true,
+        "g2": false
+    },
+    {
+        "name": "Lanyon Place",
+        "id": "10012619",
+        "lat": "734617",
+        "long": "126059",
+        "g1": true,
+        "g2": false
+    }
+]
