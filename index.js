@@ -4,14 +4,14 @@ const stops = require('./data/stops');
 
 const app = express();
 
-app.get('/', (req, res) => {
-    if (req.query.id) {
-        efaAPI.stopDetailApi(req.query.id, req.query.limit)
-        .then(result => res.send(result));
-    } else {
-        res.send(stops);
-    }
-});
+app.get('/list', (req, res) => (
+    res.send(stops)
+));
+
+app.get('/stop/:id', (req, res) => (
+    efaAPI.stopDetailApi(req.params.id, req.query.limit)
+    .then(result => res.send(result))
+));
 
 app.listen(3000, function () {
   console.log('Belfast Glider API Server - listening on port 3000');
