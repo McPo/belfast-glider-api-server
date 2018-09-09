@@ -30,7 +30,10 @@ const efaFriendlyStop = stop => ({
     lng: parseFloat(stop.itdOdvAssignedStops.x)
 });
 
-const validEFAGliderStop = efaResponse => Boolean(efaResponse.dm.itdOdvAssignedStops);
+const validEFAGliderStop = efaResponse => (
+    Boolean(efaResponse.dm.itdOdvAssignedStops) // Check valid stop
+    && Boolean(efaResponse.departureList) // Check valid glider stop
+);
 
 const efaFriendly = efaResponse => {
     if (!validEFAGliderStop(efaResponse)) {
