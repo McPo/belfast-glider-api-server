@@ -1,6 +1,6 @@
 {
   "name": "belfast-glider-api-server",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple server application that provides a simple REST interface for real-time information on the Belfast Glider network.",
   "main": "index.js",
   "scripts": {
